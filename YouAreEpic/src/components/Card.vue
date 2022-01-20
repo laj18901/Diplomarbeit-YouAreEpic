@@ -1,10 +1,8 @@
 <template>
-  <div id="card" class="card" :style="filterStyle" @click="show = !show">
-    <div class="container">
-      <h1>{{title}}</h1>
-    </div>
+  <button id="card" class="card" :style="filterStyle" @click="show = !show">
+      <span id="title">{{title}}</span>
     <img src="../assets/animal-6628303.svg" alt="Tier" width="100%" height="*">
-  </div>
+  </button>
 </template>
 
 <script>
@@ -29,7 +27,8 @@ export default {
           borderRadius: "2pt",
           boxShadow: "0 0 0 2pt #3A93A7",
           outline: "none",
-          transition: ".1s"
+          transition: ".1s",
+          backgroundColor: '#E8F1F3'
         }
       }else{
         return ''
@@ -43,35 +42,78 @@ export default {
 <style>
 
 
+#card:focus-visible {
+  outline: var(--primary) 3px solid;
+  outline-offset: 5px;
+  border-radius: 10px;
+  background-color: var(--primary-pressed);
+  box-shadow: none;
+}
 
 
-@media only screen and (min-width: 768px) {
+
+#card {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.75vw;
+  text-align: center;
+  border: none;
+  background-color: var(--backgroundA);
+  color: var(--textColor);
+  margin: 10px;
+  width: 40%;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+@media (min-width: 930px) {
+  #card{
+    max-width: calc(100vw / 4);
+  }
+}
+
+
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color:var(--primary-hover);
+}
+
+/*@media only screen and (min-width: 768px) {
   #card {
     font-family: Avenir, Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-size: 0.75vw;
     text-align: center;
-    color: #2c3e50;
-    margin-top: 0vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    width: 30vw;
-  }
+    border: none;
+    background-color: var(--backgroundA);
+    color: var(--textColor);
+    margin: 10px;
+    width: 25%;
+    border-radius: 10px;
+  }*/
 
-  .card {
+  /**.card {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-  }
+  }*/
 
-  .card:hover {
+ /* .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    background-color:#F3F8F9 ;
+    background-color:var(--primary-hover);
   }
-}
+}*/
 
-@media only screen and (max-width: 768px) {
+/*@media only screen and (max-width: 768px) {
 
   #card {
     font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -79,23 +121,28 @@ export default {
     -moz-osx-font-smoothing: grayscale;
     font-size: 1.5vw;
     text-align: center;
-    color: #2c3e50;
-    margin-top: 0vh;
-    margin-left: 1vw;
-    margin-right: 1vw;
-    width: 10vh;
+    color: var(--textColor);
+    margin: 5px;
+    width: 25%;
+    border-radius: 10px;
   }
 
-  .card {
+  .card {*/
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+   /* box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
   }
 
   .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-    background-color:#F3F8F9 ;
+    background-color:var(--primary-hover) ;
   }
+
+
+}*/
+
+#title{
+  font-size: 4em;
 }
 
 

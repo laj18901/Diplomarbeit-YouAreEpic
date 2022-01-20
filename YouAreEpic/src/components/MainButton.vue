@@ -14,9 +14,9 @@ export default {
 <style scoped>
 
 
-@media only screen and (min-width: 768px) {
+/*@media only screen and (min-width: 768px) {
   #prettybutton {
-    background-color: #FD9D9A;
+    background-color: var(--highlightB);
     border: none;
     color: white;
     padding: 2vh 2vh;
@@ -27,19 +27,15 @@ export default {
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    /*transition-duration: 0.4s;
     border-radius: 10px;
-  }
+  }*/
 
-  #prettybutton:hover {
-    background-color: #BA2660;
-    color: #FFFFFF;
-  }
-}
 
-@media only screen and (max-width: 768px) {
+
+/*@media only screen and (max-width: 768px) {
   #prettybutton {
-    background-color: #FD9D9A;
+    background-color: var(--highlightB);
     border: none;
     color: white;
     padding: 1vh 1vh;
@@ -50,14 +46,40 @@ export default {
     margin: 4px 2px;
     cursor: pointer;
     -webkit-transition-duration: 0.4s; /* Safari */
-    transition-duration: 0.4s;
+    /*transition-duration: 0.4s;
     border-radius: 10px;
-  }
+  }*/
 
   #prettybutton:hover {
-    background-color: #BA2660;
+    background-color: var(--highlightA);
     color: #FFFFFF;
   }
+
+
+#prettybutton:focus-visible {
+  outline: var(--highlightA) 3px solid;
+  outline-offset: 3px;
+  border-radius: 10px;
+  background-color: var(--highlightB);
+  box-shadow: none;
+}
+
+#prettybutton {
+  background-color: var(--highlightB);
+  border: none;
+  color: white;
+  padding: 1vh 1vh;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1.25em;
+  margin-bottom: 8px;
+  cursor: pointer;
+  width: 25%;
+  height: 20%;
+  -webkit-transition-duration: 0.4s;  /* Safari */
+  transition-duration: 0.4s;
+  border-radius: 10px;
 }
 
 </style>

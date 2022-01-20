@@ -1,16 +1,32 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import Card from "../components/Card";
-import MainButton from "../components/MainButton";
+import CategorySelection from "../pages/CategorySelection";
+import NGOList from "../pages/NGOList";
 
 Vue.use(Router)
 
-export default new Router({
+const router = new Router({
+  mode: 'history',
+  base: '/YouAreEpic',
   routes: [
     {
       path: '/',
-      name: 'Page',
-      component: Card, MainButton
+      redirect: '/selection'
+    },
+    {
+      path: '/selection',
+      name: 'CategorySelection',
+      component: CategorySelection
+    },
+    {
+      path: '/ngolist',
+      name: 'NGOList',
+      component: NGOList
     }
-  ]
+  ],
+
+
 })
+
+
+export default router

@@ -1,7 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2cec748-7dc8-4c11-a0ad-d8e1fbc1b830" name="Default Changelist" comment="" />
+    <list default="true" id="c2cec748-7dc8-4c11-a0ad-d8e1fbc1b830" name="Default Changelist" comment="First commit">
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/assets/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/assets/wald.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/assets/wwf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/components/NGOItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/pages/CategorySelection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/pages/NGOList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/build/webpack.dev.conf.js" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/build/webpack.dev.conf.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/App.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/App.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/components/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/components/Card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/components/MainButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/components/MainButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/router/index.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +46,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Vue Single File Component" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -29,12 +62,22 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/YouAreEpic/src/assets" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.microsoft.alm.plugin.idea.common.ui.settings.TeamServicesConfigurable" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LAJ18901\Diplomprojekt-YouAreEpic\YouAreEpic\src\assets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LAJ18901\Diplomprojekt-YouAreEpic\YouAreEpic\src\assets" />
     </key>
   </component>
@@ -46,12 +89,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1642166428670</updated>
-      <workItem from="1642166429844" duration="1181000" />
+      <workItem from="1642166429844" duration="13543000" />
+      <workItem from="1642409549598" duration="12040000" />
+      <workItem from="1642590244821" duration="15217000" />
+      <workItem from="1642689425781" duration="310000" />
     </task>
+    <task id="LOCAL-00001" summary="First commit">
+      <created>1642167800367</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1642167800367</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1898" height="281" key="GridCell.Tab.0.bottom" timestamp="1642166870270">
@@ -70,9 +140,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1898" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642166870270" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1642167379924">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1642689401936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1642167379924" />
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1642689401936" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1642167804403">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1642167804403" />
+    <state x="813" y="416" key="WebDeployment.AddServerDialog.v.1" timestamp="1642590405906">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="813" y="416" key="WebDeployment.AddServerDialog.v.1/0.0.1920.1040@0.0.1920.1040" timestamp="1642590405906" />
+    <state x="619" y="242" key="run.anything.popup" timestamp="1642342662737">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="619" y="242" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1642342662737" />
   </component>
 </project>
