@@ -1,0 +1,19 @@
+{
+  "auth": {
+    "identityProviders": {
+      "twitter": {
+        "registration": {
+          "consumerKeySettingName": "afoEuXezoZORWSPcmcPPQqe3I",
+          "consumerSecretSettingName": "k34yVSd3JgjFlcMRcA4nnFjP1T1VKkHee34MYkmW7I5X9y5rKFk34yVSd3JgjFlcMRcA4nnFjP1T1VKkHee34MYkmW7I5X9y5rKF"
+        }
+      }
+    }
+  }
+}
+
+/* API-KEY: afoEuXezoZORWSPcmcPPQqe3I
+   API-SECRET: k34yVSd3JgjFlcMRcA4nnFjP1T1VKkHee34MYkmW7I5X9y5rKFk34yVSd3JgjFlcMRcA4nnFjP1T1VKkHee34MYkmW7I5X9y5rKF
+   ACCESS-TOKEN: 1454523137996070919-iBzR5B0ZjHMB22jUC5p8A8MQEvGX8d
+   ACCSESS-SECRET: 8r2fTAFxQlkqi64ARiAH1LchiaQ47B0kdbB4KBM3ULZRA
+   BEARER: AAAAAAAAAAAAAAAAAAAAALPqVQEAAAAAY3MdSs7Z8BN0EzCLCUwTXZNbjuQ%3D2sgwlEeVLg1MI2Xwhjsk8iByk1Cna4J8Fsn8onVnKGqG3vJg3V
+*/

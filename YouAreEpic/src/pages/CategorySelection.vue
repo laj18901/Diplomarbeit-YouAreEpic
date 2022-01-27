@@ -5,6 +5,7 @@
   <span style="" id="seperator">
     Wählen sie Ihre Interessen <!--Padding is optional-->
   </span>
+      <button id="login">LOGIN</button>
     </div>
     <div id="categories">
       <card source="" title="Tiere"></card>
@@ -110,6 +111,10 @@ export default {
 #seperator{
   background-color: #FFFFFF;
   font-size: 2em;
+}
+
+#login{
+
 }
 
 

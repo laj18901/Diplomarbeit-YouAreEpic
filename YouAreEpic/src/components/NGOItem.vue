@@ -7,8 +7,10 @@
   <div v-if="openDetail" id="details" >
   <p id="detail">{{description}}</p>
     <!--<div id="buttons">-->
+    <div id="buttons">
     <button class="button">Website</button>
     <button class="button">Spenden</button>
+    </div>
     <!--</div>-->
   </div>
   </div>
@@ -84,7 +86,7 @@ name: "ngoitem",
   padding: 2vh 2vh;
   text-align: center;
   text-decoration: none;
-  width: 50%;
+  width: 30%;
   height: 10%;
   font-size: 1em;
   margin: 0px 8px 8px 8px;
@@ -126,7 +128,6 @@ name: "ngoitem",
   display: block;
   border-radius: 10px;
   transition-duration: 0.5s;
-
 }
 
 #wrapper{
@@ -135,22 +136,20 @@ name: "ngoitem",
   border-radius: 10px;
 
 }
-
-
-
-  #item {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 0.75vw;
-    display: flex;
-    color: #FFFFFF;
-    width: 100%;
-    height: 10vh;
-    background-color: var(--primary);
-    border: none;
-    border-radius: 10px;
-    margin-bottom: 5px;
+#item {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-size: 0.75vw;
+  display: flex;
+  color: #FFFFFF;
+  width: 100%;
+  height: 10vh;
+  background-color: var(--primary);
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  align-content: center;
   }
 
 #item:focus-visible {
@@ -168,6 +167,11 @@ name: "ngoitem",
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
     background-color:#F3F8F9 ;
     cursor: pointer;
+  }
+
+  #buttons{
+    justify-content: center;
+    display: flex;
   }
 
 

@@ -2,7 +2,7 @@
   <div id="app">
     <div style="width: 100%; height: 3vh; border-bottom: 1px solid black; text-align: center">
   <span style="" id="seperator">
-    Wählen sie Ihre Interessen <!--Padding is optional-->
+    Wählen sie eine Organisation <!--Padding is optional-->
   </span>
     </div>
 
