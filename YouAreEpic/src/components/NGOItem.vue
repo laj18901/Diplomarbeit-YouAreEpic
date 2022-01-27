@@ -9,7 +9,7 @@
     <!--<div id="buttons">-->
     <div id="buttons">
     <button class="button">Website</button>
-    <button class="button">Spenden</button>
+    <button class="button" @click="openPayment">Spenden</button>
     </div>
     <!--</div>-->
   </div>
@@ -35,7 +35,12 @@ name: "ngoitem",
   methods: {
   openDetails(){
     this.openDetail = !this.openDetail
+  },
+
+  openPayment(){
+    this.$router.push('/payment')
   }
+
   },
   computed: {
   selectedStyleButton(){
