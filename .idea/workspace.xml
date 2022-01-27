@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c2cec748-7dc8-4c11-a0ad-d8e1fbc1b830" name="Default Changelist" comment="Refactor, optimization and second Page">
-      <change afterPath="$PROJECT_DIR$/YouAreEpic/staticwebapp.config.json" afterDir="false" />
+    <list default="true" id="c2cec748-7dc8-4c11-a0ad-d8e1fbc1b830" name="Default Changelist" comment="Twitterlogin">
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/pages/Payment.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/components/NGOItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/components/NGOItem.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/pages/CategorySelection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/pages/CategorySelection.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/pages/NGOList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/pages/NGOList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,8 +35,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Vue Single File Component" />
         <option value="CSS File" />
+        <option value="Vue Single File Component" />
       </list>
     </option>
   </component>
@@ -87,7 +85,7 @@
       <workItem from="1642689425781" duration="3497000" />
       <workItem from="1643101703087" duration="645000" />
       <workItem from="1643280209323" duration="2762000" />
-      <workItem from="1643313825106" duration="1410000" />
+      <workItem from="1643313825106" duration="2269000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1642167800367</created>
@@ -103,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1642689773046</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Twitterlogin">
+      <created>1643315835430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1643315835430</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -124,7 +129,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First commit" />
     <MESSAGE value="Refactor, optimization and second Page" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor, optimization and second Page" />
+    <MESSAGE value="Twitterlogin" />
+    <option name="LAST_COMMIT_MESSAGE" value="Twitterlogin" />
   </component>
   <component name="WindowStateProjectService">
     <state x="741" y="262" key="FileChooserDialogImpl" timestamp="1643312909838">
@@ -151,10 +157,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1642689680175" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1642689780497">
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1643315947765">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1642689780497" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643315947765" />
     <state x="813" y="416" key="WebDeployment.AddServerDialog.v.1" timestamp="1642590405906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
