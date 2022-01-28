@@ -15,6 +15,7 @@
       <card source="" title="Lorem"></card>
     </div>
 
+
     <div id="buttons">
       <main-button text="Auswahl bestätigen" @click.native="nextPage"></main-button>
       <br>
@@ -27,6 +28,7 @@
 <script>
 import Card from '@/components/Card.vue'
 import MainButton from "@/components/MainButton";
+import axios from 'axios'
 
 export default {
   name: 'App',
@@ -36,6 +38,7 @@ export default {
   },
   data() {
     return {
+      categories: ''
     }
   },
   methods: {
@@ -43,7 +46,15 @@ export default {
       this.$router.push('/ngolist')
       console.log('CLICK')
     }
+
+
+  },
+  beforeCreate() {
+    axios
+    .get('http://localhost:53799/posts')
+    .then(response => (this.categories = response))
   }
+
 }
 </script>
 

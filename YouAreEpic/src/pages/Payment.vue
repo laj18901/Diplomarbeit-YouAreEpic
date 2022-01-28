@@ -2,7 +2,6 @@
 
   <button @click="getUserInfo"></button>
 
-
 </template>
 
 <script>
@@ -15,13 +14,9 @@ name: "Payment",
       const { clientPrincipal } = payload;
       console.log(clientPrincipal)
       return clientPrincipal;
-
     }
   }
 }
-
-
-
 
 </script>
 

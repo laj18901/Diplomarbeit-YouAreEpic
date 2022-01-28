@@ -8,7 +8,7 @@ Vue.use(Router)
 
 const router = new Router({
   mode: 'history',
-  base: '/YouAreEpic',
+  /*base: '/YouAreEpic',*/
   routes: [
     {
       path: '/',
@@ -31,7 +31,16 @@ const router = new Router({
     }
   ],
 
+})
 
+
+
+  let response =  fetch('/.auth/me');
+  let loggedIn = (response !== null);
+
+router.beforeEach((to, from, next) => {
+  if (!loggedIn) next( '/.auth/login/twitter')
+  else next()
 })
 
 
