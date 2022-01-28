@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import CategorySelection from "../pages/CategorySelection";
 import NGOList from "../pages/NGOList";
 import Payment from "../pages/Payment";
+import Login from "../pages/Login";
 
 Vue.use(Router)
 
@@ -12,7 +13,11 @@ const router = new Router({
   routes: [
     {
       path: '/',
-      redirect: '/selection'
+      redirect: '/selection',
+    },
+    {
+      path: '/login',
+      component: Login
     },
     {
       path: '/selection',
@@ -40,8 +45,7 @@ router.beforeEach((to, from, next) => {
   let response =  fetch('/.auth/me');
   let responseJson = response.json();
   let loggedIn = (responseJson !== null);
-
-  if (!loggedIn) next( '/.auth/login/twitter')
+  if (!loggedIn) next( {name :'Login' })
   else next()
 })
 
