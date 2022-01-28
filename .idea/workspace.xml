@@ -20,7 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2cec748-7dc8-4c11-a0ad-d8e1fbc1b830" name="Default Changelist" comment="TEST">
-      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/pages/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YouAreEpic/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/router/index.js" afterDir="false" />
     </list>
@@ -85,7 +84,7 @@
       <workItem from="1642689425781" duration="3497000" />
       <workItem from="1643101703087" duration="645000" />
       <workItem from="1643280209323" duration="2762000" />
-      <workItem from="1643313825106" duration="11127000" />
+      <workItem from="1643313825106" duration="11476000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1642167800367</created>
@@ -150,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643361676936</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="TEST">
+      <created>1643362216701</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1643362216701</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,10 +207,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1642689680175" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1643361682269">
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1643362232012">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643361682269" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643362232012" />
     <state x="813" y="416" key="WebDeployment.AddServerDialog.v.1" timestamp="1642590405906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

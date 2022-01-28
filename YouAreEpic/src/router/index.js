@@ -4,6 +4,7 @@ import CategorySelection from "../pages/CategorySelection";
 import NGOList from "../pages/NGOList";
 import Payment from "../pages/Payment";
 import Login from "../pages/Login";
+import axios from "axios";
 
 Vue.use(Router)
 
@@ -42,9 +43,8 @@ const router = new Router({
 
 
 router.beforeEach((to, from, next) => {
-  let response =  fetch('/.auth/me');
-  let responseJson = response.json();
-  let loggedIn = (responseJson !== null);
+  let response =  axios.get('.auth/me')
+  let loggedIn = (response !== null);
   if (!loggedIn) next( {name :'Login' })
   else next()
 })
