@@ -38,7 +38,9 @@ const router = new Router({
 
 router.beforeEach((to, from, next) => {
   let response =  fetch('/.auth/me');
-  let loggedIn = (response !== null);
+  let responseJson = response.json();
+  let loggedIn = (responseJson !== null);
+
   if (!loggedIn) next( '/.auth/login/twitter')
   else next()
 })
