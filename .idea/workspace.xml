@@ -1,26 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BranchesTreeState">
-    <expand>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-      <path>
-        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c2cec748-7dc8-4c11-a0ad-d8e1fbc1b830" name="Default Changelist" comment="TEST">
+      <change afterPath="$PROJECT_DIR$/Frontend/.idea/Frontend.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/assets/animal-6628303.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/assets/css/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/assets/css/_font.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/assets/css/_ngostyles.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/assets/css/_stepper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/assets/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/assets/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/assets/wald.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/assets/wwf.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/components/Card.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/components/NGOItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/components/NGOItemDetailed.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/components/Seperator.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/components/Stepper.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/pages/CategorySelection.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/pages/Login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/pages/NGOList.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/pages/Payment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/assets/css/_button.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/assets/css/_color.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/assets/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/components/NGOItemDetailed.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/YouAreEpic/src/components/Seperator.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/Frontend/my-vue-app/src/assets/css/_color.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/components/Card.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/components/Card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/components/MainButton.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/components/MainButton.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/components/NGOItem.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/components/NGOItem.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/pages/CategorySelection.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/pages/CategorySelection.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/pages/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/pages/Login.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/pages/NGOList.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/pages/NGOList.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/YouAreEpic/src/pages/Payment.vue" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/pages/Payment.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/YouAreEpic/src/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/YouAreEpic/src/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,6 +57,7 @@
       <list>
         <option value="CSS File" />
         <option value="Vue Single File Component" />
+        <option value="SCSS File" />
       </list>
     </option>
   </component>
@@ -56,17 +78,24 @@
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/YouAreEpic/src/assets" />
-    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Frontend" />
+    <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.microsoft.alm.plugin.idea.common.ui.settings.TeamServicesConfigurable" />
+    <property name="settings.editor.selected.configurable" value="settings.javascript.linters.eslint" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\LAJ18901\Diplomprojekt-YouAreEpic\YouAreEpic\src\assets" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\LAJ18901\Diplomprojekt-YouAreEpic\YouAreEpic\src\components" />
       <recent name="C:\Users\LAJ18901\Diplomprojekt-YouAreEpic\YouAreEpic\src\assets" />
     </key>
   </component>
@@ -84,7 +113,16 @@
       <workItem from="1642689425781" duration="3497000" />
       <workItem from="1643101703087" duration="645000" />
       <workItem from="1643280209323" duration="2762000" />
-      <workItem from="1643313825106" duration="11476000" />
+      <workItem from="1643313825106" duration="15973000" />
+      <workItem from="1644241719293" duration="4218000" />
+      <workItem from="1644913226116" duration="1138000" />
+      <workItem from="1645012114175" duration="1484000" />
+      <workItem from="1645178700886" duration="230000" />
+      <workItem from="1645181817852" duration="14587000" />
+      <workItem from="1645518908693" duration="5783000" />
+      <workItem from="1645537579470" duration="4738000" />
+      <workItem from="1645543046538" duration="2094000" />
+      <workItem from="1646647161931" duration="36000" />
     </task>
     <task id="LOCAL-00001" summary="First commit">
       <created>1642167800367</created>
@@ -156,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1643362216701</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="TEST">
+      <created>1643362560703</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1643362560703</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -165,11 +210,41 @@
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
+        <entry key="1">
+          <value>
+            <State>
+              <option name="SHOW_ONLY_AFFECTED_CHANGES" value="true" />
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="HEAD" />
+                      </list>
+                    </value>
+                  </entry>
+                  <entry key="structure">
+                    <value>
+                      <list>
+                        <option value="dir:C:/Users/LAJ18901/Diplomprojekt-YouAreEpic/YouAreEpic/src" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
         <entry key="MAIN">
           <value>
             <State />
           </value>
         </entry>
+      </map>
+    </option>
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="1" value="TOOL_WINDOW" />
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
@@ -183,10 +258,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="TEST" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="741" y="262" key="FileChooserDialogImpl" timestamp="1643312909838">
+    <state x="741" y="262" key="FileChooserDialogImpl" timestamp="1646647195604">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="741" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1643312909838" />
+    <state x="741" y="262" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1646647195604" />
     <state width="1898" height="281" key="GridCell.Tab.0.bottom" timestamp="1642166870270">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -203,21 +278,21 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1898" height="281" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1642166870270" />
-    <state x="461" y="164" key="SettingsEditor" timestamp="1642689680175">
+    <state x="461" y="164" key="SettingsEditor" timestamp="1645518591245">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1642689680175" />
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1643362232012">
+    <state x="461" y="164" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1645518591245" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2" timestamp="1643362563570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643362232012" />
+    <state x="552" y="250" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1643362563570" />
     <state x="813" y="416" key="WebDeployment.AddServerDialog.v.1" timestamp="1642590405906">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="813" y="416" key="WebDeployment.AddServerDialog.v.1/0.0.1920.1040@0.0.1920.1040" timestamp="1642590405906" />
-    <state x="620" y="243" key="run.anything.popup" timestamp="1643318044208">
+    <state x="621" y="244" key="run.anything.popup" timestamp="1645522754047">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="620" y="243" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1643318044208" />
+    <state x="621" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1645522754047" />
   </component>
 </project>

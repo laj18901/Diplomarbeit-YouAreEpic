@@ -4,15 +4,14 @@
 
 <script>
 export default {
-  name: "MainButton",
+  name: 'MainButton',
   props: {
-    text: String,
+    text: String
   }
 }
 </script>
 
 <style scoped>
-
 
 /*@media only screen and (min-width: 768px) {
   #prettybutton {
@@ -30,8 +29,6 @@ export default {
     /*transition-duration: 0.4s;
     border-radius: 10px;
   }*/
-
-
 
 /*@media only screen and (max-width: 768px) {
   #prettybutton {
@@ -54,7 +51,6 @@ export default {
     background-color: var(--highlightA);
     color: #FFFFFF;
   }
-
 
 #prettybutton:focus-visible {
   outline: var(--highlightA) 3px solid;

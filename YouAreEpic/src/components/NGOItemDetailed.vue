@@ -1,26 +1,19 @@
 <template>
-  <div id="wrapper" class="wrapper" :style="selectedStyleWrapper" >
-  <button id="item" :style="selectedStyleButton" class="item" @click="openDetails">
+  <div id="wrapper" class="wrapper" >
+  <div id="item" class="item" >
     <img src="../assets/wwf.jpg" alt="" id="logo">
     <span id="name">{{name}}
     </span>
-
-  </button>
-  <div v-if="openDetail" id="details" >
+  </div>
+  <div id="details">
   <p id="detail">{{description}}</p>
-    <!--<div id="buttons">-->
-    <div id="buttons">
-    <button class="button" @click="openWebsite">Website</button>
-    <button class="button" @click="openPayment">Spenden</button>
-    </div>
-    <!--</div>-->
   </div>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'ngoitem',
+  name: 'ngoitemdetailed',
   props: {
     logo: String,
     name: String,
@@ -28,52 +21,9 @@ export default {
     shortDescription: String,
     website: String,
     id: String
-  },
-
-  data () {
-    return {
-      openDetail: false
-    }
-  },
-
-  methods: {
-    openDetails () {
-      this.openDetail = !this.openDetail
-    },
-
-    openPayment () {
-      this.$router.push({name: 'Payment', params: { id: 'eduardo' }})
-    },
-
-    openWebsite () {
-      window.open(this.website)
-    }
-
-  },
-  computed: {
-    selectedStyleButton () {
-      if (this.openDetail) {
-        return {
-          backgroundColor: 'var(--highlightA)'
-        }
-      } else {
-        return ''
-      }
-    },
-    selectedStyleWrapper () {
-      if (this.openDetail) {
-        return {
-          border: 'none',
-          boxShadow: '0 0 0 2pt var(--highlightA)',
-          outline: 'none',
-          transition: '.1s'
-        }
-      } else {
-        return ''
-      }
-    }
   }
 }
+
 </script>
 
 <style scoped>
@@ -121,7 +71,7 @@ export default {
 
 #name{
   color: white;
-  font-size: 3rem;
+  font-size: 5em;
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -150,6 +100,7 @@ export default {
   text-align: left;
   display: block;
   border-radius: 10px;
+  border-color: var(--highlightB);
   transition-duration: 0.5s;
 }
 

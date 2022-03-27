@@ -1,20 +1,19 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import CategorySelection from "../pages/CategorySelection";
-import NGOList from "../pages/NGOList";
-import Payment from "../pages/Payment";
-import Login from "../pages/Login";
-import axios from "axios";
+import CategorySelection from '../pages/CategorySelection'
+import NGOList from '../pages/NGOList'
+import Payment from '../pages/Payment'
+import Login from '../pages/Login'
 
 Vue.use(Router)
 
 const router = new Router({
   mode: 'history',
-  /*base: '/YouAreEpic',*/
+  /* base: '/YouAreEpic', */
   routes: [
     {
       path: '/',
-      redirect: '/selection',
+      redirect: '/login'
     },
     {
       path: '/login',
@@ -23,7 +22,10 @@ const router = new Router({
     {
       path: '/selection',
       name: 'CategorySelection',
-      component: CategorySelection
+      component: CategorySelection,
+      meta: {
+        auth: true // A protected route
+      }
     },
     {
       path: '/ngolist',
@@ -31,23 +33,13 @@ const router = new Router({
       component: NGOList
     },
     {
-      path: '/payment',
+      path: '/payment/:ngoid',
       name: 'Payment',
-      component: Payment
+      component: Payment,
+      params: true
     }
-  ],
+  ]
 
 })
-
-
-
-
-router.beforeEach((to, from, next) => {
-  let response =  axios.get('.auth/me')
-  let loggedIn = (response !== null);
-  if (!loggedIn) next( {name :'Login' })
-  else next()
-})
-
 
 export default router

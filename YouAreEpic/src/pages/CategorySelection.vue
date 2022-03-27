@@ -1,92 +1,80 @@
 <template>
   <div id="app" >
-    <div id="background">
-    <div style="width: 100%; height: 3vh; border-bottom: 1px solid black; text-align: center">
-  <span style="" id="seperator">
-    Wählen sie Ihre Interessen <!--Padding is optional-->
-  </span>
-      <button id="login">LOGIN</button>
-    </div>
-    <div id="categories">
-      <card source="" title="Tiere"></card>
-      <card source="" title="Kinder"></card>
-      <card source="" title="Umwelt"></card>
-      <card source="" title="Krankheiten"></card>
-      <card source="" title="Lorem"></card>
+    <!--#############################################################-->
+    <seperator text="Wählen Sie Ihre Interessen"></seperator>
+    <!--#############################################################-->
+    <div id="categories" v-for="cat in categories" >
+      <card :title="cat.name"></card>
     </div>
 
-
-    <div id="buttons">
+    <div class="buttons">
       <main-button text="Auswahl bestätigen" @click.native="nextPage"></main-button>
       <br>
       <main-button text="Alles Anzeigen " @click.native="nextPage" ></main-button>
     </div>
     </div>
-  </div>
 </template>
 
 <script>
 import Card from '@/components/Card.vue'
-import MainButton from "@/components/MainButton";
+import MainButton from '@/components/MainButton'
 import axios from 'axios'
+import Seperator from '../components/Seperator'
 
 export default {
   name: 'App',
   components: {
+    Seperator,
     MainButton,
     Card
   },
-  data() {
+  data () {
     return {
-      categories: ''
+      categories: '',
+      user: ''
     }
   },
   methods: {
-    nextPage(){
+    nextPage () {
       this.$router.push('/ngolist')
       console.log('CLICK')
+    },
+
+    debug () {
+      console.log(this.categories)
     }
 
-
   },
-  beforeCreate() {
+  beforeCreate () {
     axios
-    .get('http://localhost:53799/posts')
-    .then(response => (this.categories = response))
+      .get('https://localhost:44328/categories')
+      .then(response => (this.categories = response.data.categories))
   }
-
 }
 </script>
 
-<style>
+<style scoped>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
   /*display: flow-root;*/
-
   justify-content: center;
 
 }
 
-
   #categories {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    display: inline-flex;
     margin-top: 3vw;
   }
 
-  #buttons{
+  .buttons{
     position: absolute;
     bottom: 0;
     left: 0;
     right: 0;
     margin-bottom: 20px;
   }
-
 
 /*#buttons{
   position: fixed;
@@ -119,14 +107,8 @@ export default {
   }
 }*/
 
-#seperator{
-  background-color: #FFFFFF;
-  font-size: 2em;
-}
-
 #login{
 
 }
-
 
 </style>

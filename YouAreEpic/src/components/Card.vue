@@ -13,24 +13,23 @@ export default {
     source: String,
     title: String
   },
-  data() {
+  data () {
     return {
       show: false
     }
-
   },
   computed: {
-    filterStyle(){
-      if (this.show){
+    filterStyle () {
+      if (this.show) {
         return {
-          border: "none",
-          borderRadius: "2pt",
-          boxShadow: "0 0 0 2pt #3A93A7",
-          outline: "none",
-          transition: ".1s",
+          border: 'none',
+          borderRadius: '2pt',
+          boxShadow: '0 0 0 2pt #3A93A7',
+          outline: 'none',
+          transition: '.1s',
           backgroundColor: '#E8F1F3'
         }
-      }else{
+      } else {
         return ''
       }
     }
@@ -41,7 +40,6 @@ export default {
 
 <style>
 
-
 #card:focus-visible {
   outline: var(--primary) 3px solid;
   outline-offset: 5px;
@@ -49,8 +47,6 @@ export default {
   background-color: var(--primary-pressed);
   box-shadow: none;
 }
-
-
 
 #card {
   font-family: Avenir, Helvetica, Arial, sans-serif;
@@ -61,8 +57,8 @@ export default {
   border: none;
   background-color: var(--backgroundA);
   color: var(--textColor);
-  margin: 10px;
-  width: 40%;
+  margin: 5px;
+  width: 70%;
   border-radius: 10px;
   cursor: pointer;
 }
@@ -72,8 +68,6 @@ export default {
     max-width: calc(100vw / 4);
   }
 }
-
-
 
 .card {
   /* Add shadows to create the "card" effect */
@@ -138,13 +132,11 @@ export default {
     background-color:var(--primary-hover) ;
   }
 
-
 }*/
 
 #title{
   font-size: 4em;
 }
-
 
 /* On mouse-over, add a deeper shadow */
 

@@ -1,8 +1,5 @@
 <template>
-  <div id="app">
-    <!--#############################################################-->
-    <seperator text="Wählen Sie eine NGO"></seperator>
-    <!--#############################################################-->
+  <div>
     <div id="items" v-for="ngo in ngos" >
       <ngoitem :name=ngo.name :description=ngo.description :short-description="ngo.shortDescription" :id=ngo.id></ngoitem>
     </div>
@@ -11,20 +8,17 @@
 </template>
 
 <script>
-import ngoitem from '../components/NGOItem'
-import MainButton from '../components/MainButton'
-import Seperator from '../components/Seperator'
+import ngoitem from '../components/NGOItem.vue'
 import axios from 'axios'
 
 export default {
   name: 'NGOList',
   components: {
-    ngoitem, MainButton, Seperator
+    ngoitem
   },
   data () {
     return {
       ngos: {}
-
     }
   },
 

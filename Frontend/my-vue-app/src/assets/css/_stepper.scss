@@ -1,0 +1,37 @@
+
+.stepper {
+  display: flex;
+  padding: 0;
+  width: 100vw;
+  list-style: none;
+  position: absolute;
+  bottom: 0;
+  font-family: Jost;
+  color: white;
+}
+
+.stepper__item {
+  flex: 100%;
+  padding: 20px 20px 20px 40px;
+  background-color: var(--highlightB);
+  margin: 0 0 0 -19px;
+  border-radius: 10px;
+  -webkit-clip-path: polygon(20px 50%, 0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+
+  &.current {
+    background-color: var(--highlightA);
+  }
+
+  &.complete {
+    background-color: var(--primary);
+  }
+
+  &:first-child {
+    padding: 20px;
+    -webkit-clip-path: polygon(0% 0%, calc(100% - 20px) 0%, 100% 50%, calc(100% - 20px) 100%, 0% 100%);
+  }
+
+  &:last-child {
+    -webkit-clip-path: polygon(20px 50%, 0% 0%, 100% 0%, 100% 100%, 0% 100%);
+  }
+}
